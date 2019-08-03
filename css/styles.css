@@ -465,10 +465,6 @@ a.tel {
 		background-size:120%;		
 	}
 
-/*	.koresp {
-		background-color: rgba(200,200,200,.9);
-	}*/
-
 	.contact {
 		color: white;
 		padding: 4px;
@@ -523,7 +519,13 @@ a.tel {
 		padding: 5px 0px 5px 0px;
 	}
 
+	.piece {
+		width: 100%;
+	}
 
+	audio {
+		width: 100%;
+	}
 }
 
 
