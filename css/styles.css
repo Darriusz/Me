@@ -57,8 +57,11 @@ h3 > a {
 h3 > a:hover {
 	text-decoration: none;
 	color: white;
-	background-color: #E5E0E0;
-	border-radius: 15px;
+	background-color: rgba(229, 224, 224,.4);
+	border-radius: 5px;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-bottom: 4px;
 } 
 
 
@@ -67,6 +70,17 @@ small{
 	font-size:50%;
 }
 
+.ipsum {
+	color: rgba(200,255,255,.4);
+	font-size: 100%;
+	font-weight: 300;
+}
+
+.ipsum:hover {
+	color: #FA857F;
+	background-color: rgba(229, 224, 224,.3);
+	border-radius: 5px;	
+}
 
 .container-fluid{
 	width:95%;
@@ -151,12 +165,6 @@ hr.short{
 
 h5.memod {
 	color:rgba(255,255,255,.4);
-}
-
-.ipsum {
-	color: rgba(200,255,255,.4);
-	font-size: 100%;
-	font-weight: 300;
 }
 
 .paintings {
