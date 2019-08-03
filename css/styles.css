@@ -19,18 +19,6 @@ a.nav-link {
 	text-align: center;
 }
 
-#search {
-/*	float: right;*/
-	background-color: #FA857F;
-	border-radius: 5px;
-	border: none;
-/*	margin-left: 25px;*/
-}
-
-#togIcon {
-	size: 200px;
-}
-
 hr.menuHr{
 	border: 0; 
 	border-top: 1px solid white;
@@ -39,20 +27,17 @@ hr.menuHr{
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-	color: grey;
-	background-color: rgba(255,255,255,0.2);
-	border-radius: 5px;
+	color: rgb(180,180,180);
 }
 
-/*.display-4 {
-	font-size: 300%
-	;
-}
-*/
 h3 > a {
 	text-decoration: none;
 	color: black;
 } 
+
+.start {
+	margin-top: 3%;
+}
 
 h3 > a:hover {
 	text-decoration: none;
@@ -74,12 +59,15 @@ small{
 	color: rgba(210,210,210,.4);
 	font-size: 100%;
 	font-weight: 300;
+	text-align: left;
+	padding-left: 0;	
 }
 
 .ipsum:hover {
 	color: #FA857F;
 	background-color: rgba(229, 224, 224,.3);
 	border-radius: 5px;	
+	padding: 2px;
 }
 
 .contact {
@@ -143,10 +131,6 @@ h1.main {
 	color: #FA857F;
 
 }
-
-/*.display-4{
-	font-size: 6.5vw;
-}*/
 
 hr.short{
 	width:60%;
@@ -468,10 +452,64 @@ a.tel {
 		font-size: 250%;
 	}
 	
-	#button1, #button2, #button3, #button4, #button5, #button6, #button7 {
+	h3 > a {
+		text-decoration: none;
+		color: white;
+	} 
+
+	.bodyIndex {
+		color: white;
+		background-image: url("../images/m1DSC02148aFlat_Cell.jpg");
+		background-size:120%;		
+	}
+
+	#bodyPage1, #bodyPage2, #bodyPage3 {
+		background-size:200%;
+	}
+
+	#bodyPage4 {
+		background-size:330%;
+	}
+
+	.memodal {
+		background-color: rgba(0,0,0,.7);
+	}
+
+	.ipsum {
+		color: #FA857F;
+		background-color: rgba(229, 224, 224,.3);
+		border-radius: 5px;	
+		padding: 2px;
+	}
+
+	h1.digit {
+		font-size: 3.5em;
+		color: rgba(238, 108, 162, 0.9); /*#252C7D;*/
+		margin-bottom: 10%;
+		margin-top: 10%;
+	}
+
+	a.digit {
+		color:white;
+		background-color: rgba(16, 43, 150, 0.4);
+		padding: 5px;
+		border-radius: 5px;
+	}
+
+	a.digit:hover {
+		color:#252C7D;
+		text-decoration: none;
+		background-color: rgba(255,255,255,0.2);
+		border-radius: 5px;
+		padding: 4px;
+	}
+
+	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13 {
 		font-size:110%;
 		width: 60%;
 	}
+
+
 }
 
 
@@ -518,6 +556,30 @@ a.tel {
 		color: #FA857F;
 	}
 
+	h3 > a {
+		text-decoration: none;
+		color: white;
+	} 
+
+	.bodyIndex {
+		color: white;
+		background-image: url("../images/m1DSC02148aFlat_tablet.jpg");
+/*		background-size:120%;		*/
+	}
+
+	#bodyPage1, #bodyPage2, #bodyPage3 {
+		background-size:200%;
+	}
+
+	#bodyPage4 {
+		background-size:330%;
+	}
+
+	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13 {
+		font-size:90%;
+		width: 60%;
+	}
+
 }
 
 
@@ -550,6 +612,11 @@ a.tel {
 		font-size: 70%;
 		color: #FA857F;	
 	}
+
+	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13 {
+		font-size:65%;
+	}
+
 }
 
 
