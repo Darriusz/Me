@@ -465,6 +465,10 @@ a.tel {
 		background-size:120%;		
 	}
 
+/*	.koresp {
+		background-color: rgba(200,200,200,.9);
+	}*/
+
 	.contact {
 		color: white;
 		padding: 4px;
@@ -480,7 +484,7 @@ a.tel {
 		background-size:330%;
 	}
 
-	.memodal {
+	.memodal, .koresp {
 		background-color: rgba(0,0,0,.7);
 	}
 
@@ -571,6 +575,10 @@ a.tel {
 		color: white;
 	} 
 
+	.koresp {
+		background-color: rgba(200,200,200,.9);
+	}
+
 	.bodyIndex {
 		color: white;
 		background-image: url("../images/m1DSC02148aFlat_tablet.jpg");
@@ -624,6 +632,10 @@ a.tel {
 		color: #FA857F;	
 	}
 
+.koresp {
+	background-color: rgba(200,200,200,.9);
+}
+
 	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13 {
 		font-size:65%;
 		width: 80px;
@@ -656,6 +668,10 @@ a.tel {
 
 	h1.main {
 		font-size: 60px;
+	}
+
+	.koresp {
+	background-color: rgba(255,255,255,.5);
 	}
 
 	#jumbo {
