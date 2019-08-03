@@ -71,7 +71,7 @@ small{
 }
 
 .ipsum {
-	color: rgba(200,255,255,.4);
+	color: rgba(210,210,210,.4);
 	font-size: 100%;
 	font-weight: 300;
 }
@@ -82,9 +82,32 @@ small{
 	border-radius: 5px;	
 }
 
+.contact {
+	color: #FA857F;
+	background-color: rgba(100,100,100,.5);
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.contact:hover {
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+}
+
 .container-fluid{
 	width:95%;
 	margin: auto;
+}
+
+.mailto {
+	color: rgba(255,255,255,.6);
+}
+
+.mailto:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,.6);
+	font-style: italic;
 }
 
 
@@ -221,7 +244,8 @@ a.digit:hover {
 	margin-top: 20%;
 	width: 85%;
 	text-align: justify;
-	background-color: #E5E0E0;	
+	background-color: #E5E0E0;
+	padding-bottom: 3px;	
 }
 
 #bodyPage3{
@@ -269,12 +293,12 @@ a.biblio:hover {
 }
 
 a.pic {
-	color: rgb(50,50,50);
+	color: rgb(80,80,80);
 }
 
 a.pic:hover {
 	text-decoration: none;
-	color: rgb(100,100,100);		
+	color: rgb(110,110,110);		
 }
 
 /*.secCanvas {
