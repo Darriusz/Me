@@ -248,6 +248,12 @@ a.digit:hover {
 	font-size: 80%;
 }
 
+.album {
+/*	margin-right: 10px;
+	margin-left: 10px*/
+	margin: 10px;
+}
+
 .modalbooks {
 	background-color: rgba(200,200,200,0.9);
 }
