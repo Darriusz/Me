@@ -100,36 +100,18 @@ small{
 
 
 .bodyIndex {
-/*	background-image: url("../images/DSC02704_kwiaty_1.jpg");	*/
 	background-image: url("../images/m1DSC02148aFlat.jpg");
 	background-size: 100%;
 }
 
 
-.jumbotron {
-
-/*	background-image: url("http://webershandwick.co.uk/wp-content/uploads/2013/11/Corporate-2.jpg");
-*/
-	background-image: url("https://www.referenceforbusiness.com/photos/corporate-image-630.jpg");
-	color: white;
-	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
-	max-height: 280px;
-
-}
-
 h1.main {
 	font-size: 7vw;
 }
 
-#jumbo {
-	color: #FA857F;
-	font-size: 3vw;	
-	margin-bottom: 0;
-}
 
 .display-2 {
 	color: #FA857F;
-
 }
 
 hr.short{
@@ -249,8 +231,6 @@ a.digit:hover {
 }
 
 .album {
-/*	margin-right: 10px;
-	margin-left: 10px*/
 	margin: 10px;
 }
 
@@ -301,34 +281,8 @@ a.pic:hover {
 	color: rgb(110,110,110);		
 }
 
-/*.secCanvas {
-	height: 400px;
-}*/
-
 #startParaPage1 {
 	margin-top: 35px;
-}
-
-#carous {
- 	width: 100%;
-    height: 100%;
-    max-height: 400px;
-/*    max-width: 600px;*/
-    margin: auto;
-    border: 1px solid black;
-    box-shadow: 2px 2px #295488;
-}
-
-#slajdy {
-	margin-top: 20em;
-	width: 20%;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-    max-height: 400px;
-/*    max-width: 600px;*/
 }
 
 
@@ -437,10 +391,6 @@ a.tel {
 /*******extra extra small**********/
 @media (max-width: 450px) {
 
-/*	#input{
-		margin-left: 0;
-	}*/
-
 	h1.main {
 		font-size: 30px;
 	}
@@ -454,16 +404,12 @@ a.tel {
 		font-size: 0.8em;
 	}
 
-	#sp {
-	color: #FA857F;
-}
-
-	.jumbotron{
-		height:180px;
+	.lead {
+		font-size: 130%;
 	}
 
 	.display-2 {
-		font-size:380%;
+		font-size:280%;
 	}
 
 	.display-4{
@@ -488,6 +434,9 @@ a.tel {
 		font-weight: 300;
 	}
 
+	.x {
+		color: grey;
+	}
 	#bodyPage1, #bodyPage2, #bodyPage3 {
 		background-size:200%;
 	}
@@ -542,6 +491,15 @@ a.tel {
 	audio {
 		width: 100%;
 	}
+
+	h5 > a.display-4 {
+		font-size: 70%;
+		color: #FA857F;
+	}
+
+	#collapsiblePanels {
+		background-color:rgba(0,0,0,.4);
+	}		
 }
 
 
@@ -561,12 +519,8 @@ a.tel {
 		font-size: 0.8em;
 	}
 
-	#sp {
-	color: #FA857F;
-}
-
-	.jumbotron{
-		height:220px;
+	.lead {
+		font-size: 130%;
 	}
 
 	h1.main{
@@ -574,15 +528,17 @@ a.tel {
 	}
 
 	.display-2 {
-		font-size:380%;
+		font-size:280%;
 	}
 
 	.display-4{
 		font-size: 250%;
 	}
+
 	#collapsiblePanels {
 		background-color:rgba(0,0,0,.4);
 	}
+
 	h5 > a.display-4 {
 		font-size: 70%;
 		color: #FA857F;
@@ -650,9 +606,9 @@ a.tel {
 		color: #FA857F;	
 	}
 
-.koresp {
-	background-color: rgba(200,200,200,.9);
-}
+	.koresp {
+		background-color: rgba(200,200,200,.9);
+	}
 
 	#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13 {
 		font-size:65%;
@@ -666,23 +622,23 @@ a.tel {
 /*******large**********/
 @media (min-width: 992px) {
 
-.navbar-dark .navbar-nav .nav-index{  
-	width:120px;
-	margin-right: 8px;
-	border: 1px solid white;
-	border-radius: 5px;
-	font-size: 1.2em;
-	padding:3px;
-}
+	.navbar-dark .navbar-nav .nav-index{  
+		width:120px;
+		margin-right: 8px;
+		border: 1px solid white;
+		border-radius: 5px;
+		font-size: 1.2em;
+		padding:3px;
+	}
 
-.navbar-dark .navbar-nav .nav-page3{ 
-	width:120px;
-	margin-right: 8px;
-	border-radius: 5px;
-	background-color: rgba(255,255,255,0.8);
-	font-size: 1.2em;
-	padding:3px;
-}
+	.navbar-dark .navbar-nav .nav-page3{ 
+		width:120px;
+		margin-right: 8px;
+		border-radius: 5px;
+		background-color: rgba(255,255,255,0.8);
+		font-size: 1.2em;
+		padding:3px;
+	}
 
 	h1.main {
 		font-size: 60px;
@@ -690,11 +646,6 @@ a.tel {
 
 	.koresp {
 	background-color: rgba(255,255,255,.5);
-	}
-
-	#jumbo {
-		color: #FA857F;
-		font-size: 25px;
 	}
 		
 	.display-4{
