@@ -228,14 +228,24 @@ a.digit:hover {
 	margin-top: 20%;
 	width: 85%;
 	text-align: justify;
-	background-color: #E5E0E0;
+	background-color: rgba(250, 250, 250, 0.9); /*#E5E0E0;*/
 	padding-bottom: 3px;	
+}
+
+.quote {
+	color: #FA857F;
 }
 
 #bodyPage3{
 	background-color: #A9B0B1;
 	background-image: url("../images/NieborowLampy_DSC01602Sc3.jpg");
 	background-size:100%;
+}
+
+.neuro {
+	color: white;
+	font-weight: 300;
+	font-size: 80%;
 }
 
 .modalbooks {
