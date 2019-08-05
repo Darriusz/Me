@@ -18,8 +18,12 @@ function hideShow(item) {
     x.style.display = "block";
   }
 }
-		
-//***********button1  *************
+
+
+
+
+
+//***********button1  experiment *************
     document.querySelector("#button1")
       .addEventListener("click", function () {
         
@@ -28,7 +32,7 @@ function hideShow(item) {
     hideShow("button1Content");
     
         document.querySelector("#button1PanelHeading")
-                .innerHTML = '<div class="piece"><h5>A Fair Day</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>A Fair Day</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button1PanelHeading");
     var y = document.getElementById("button1");   
@@ -38,9 +42,10 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
+
 
 //***********button2  *************
     document.querySelector("#button2")
@@ -51,7 +56,7 @@ function hideShow(item) {
     hideShow("button2Content");
     
         document.querySelector("#button2PanelHeading")
-                .innerHTML = '<div class="piece"><h5>październik 2006&ndash;2017</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>październik 2006&ndash;2017</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button2PanelHeading");
     var y = document.getElementById("button2");   
@@ -61,7 +66,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -75,7 +80,7 @@ function hideShow(item) {
 		hideShow("button3Content");
 		
         document.querySelector("#button3PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Strings overtone suite</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Strings overtone suite</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
 	  var x = document.getElementById("button3PanelHeading");
 	  var y = document.getElementById("button3");	  
@@ -85,7 +90,7 @@ function hideShow(item) {
 		} 
     else {
 			x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
 		}
 	});
 
@@ -100,7 +105,7 @@ function hideShow(item) {
     hideShow("button4Content");
     
         document.querySelector("#button4PanelHeading")
-                .innerHTML = '<div class="piece"><h5>In The Sunlit Corridors of Childhood</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>In The Sunlit Corridors of Childhood</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button4PanelHeading");
     var y = document.getElementById("button4");   
@@ -110,7 +115,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -125,7 +130,7 @@ function hideShow(item) {
     hideShow("button5Content");
     
         document.querySelector("#button5PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Via di speranza</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Via di speranza</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button5PanelHeading");
     var y = document.getElementById("button5");   
@@ -135,7 +140,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -149,7 +154,7 @@ function hideShow(item) {
     hideShow("button6Content");
     
         document.querySelector("#button6PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Himalayas</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Himalayas</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button6PanelHeading");
     var y = document.getElementById("button6");   
@@ -159,7 +164,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -173,7 +178,7 @@ function hideShow(item) {
     hideShow("button7Content");
     
         document.querySelector("#button7PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Orate pro ea</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Orate pro ea</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button7PanelHeading");
     var y = document.getElementById("button7");   
@@ -183,7 +188,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -197,7 +202,7 @@ function hideShow(item) {
     hideShow("button8Content");
     
         document.querySelector("#button8PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Benedictus</h5><p>Z tym że nie jest <em>Benedictus</em> do kompilowanego tekstu, nie mszalny.</p><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Benedictus</h5><p>Z tym że jest to <em>Benedictus</em> do kompilowanego tekstu, nie mszalny.</p><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button8PanelHeading");
     var y = document.getElementById("button8");   
@@ -207,7 +212,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -221,7 +226,7 @@ function hideShow(item) {
     hideShow("button9Content");
     
         document.querySelector("#button9PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Pater noster qui es...</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Pater noster qui es...</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button9PanelHeading");
     var y = document.getElementById("button9");   
@@ -231,7 +236,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -245,7 +250,7 @@ function hideShow(item) {
     hideShow("button10Content");
     
         document.querySelector("#button10PanelHeading")
-                .innerHTML = '<div class="piece"><h5>White Prelude</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>White Prelude</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button10PanelHeading");
     var y = document.getElementById("button10");   
@@ -255,7 +260,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -269,7 +274,7 @@ function hideShow(item) {
     hideShow("button11Content");
     
         document.querySelector("#button11PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Adiuva me</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Adiuva me</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button11PanelHeading");
     var y = document.getElementById("button11");   
@@ -279,7 +284,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   });
 
@@ -293,7 +298,7 @@ function hideShow(item) {
     hideShow("button12Content");
     
         document.querySelector("#button12PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Orchestral study</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Orchestral study</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button12PanelHeading");
     var y = document.getElementById("button12");   
@@ -303,7 +308,7 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   }); 
 
@@ -317,7 +322,7 @@ function hideShow(item) {
     hideShow("button13Content");
     
         document.querySelector("#button13PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Valse sentimentale</h5><p class="minimal">(nagranie mechaniczne z edytora zapisu nutowego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Valse sentimentale</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
     var x = document.getElementById("button13PanelHeading");
     var y = document.getElementById("button13");   
@@ -327,6 +332,6 @@ function hideShow(item) {
     } 
     else {
       x.style.display = "block";
-      y.innerHTML = 'Close';
+      y.innerHTML = '<span style="color: red">| Close |</span>';
     }
   }); 

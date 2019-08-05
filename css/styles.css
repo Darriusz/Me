@@ -143,8 +143,7 @@ hr.short{
 
 #bodyPage1{
 	background-color: #A9B0B1;
-	background-image: url("../images/NieborowLampy_Sc5.jpg");
-/*	background-image: url("../images/DSC02704_kwiaty_1.jpg");*/
+	background-image: url("../images/Sc5.jpg");
 	background-size:100%;
 }
 
@@ -183,7 +182,7 @@ a.digit:hover {
 
 #bodyPage2{
 	background-color: #A9B0B1;
-	background-image: url("../images/ArboretumDUZE_02_Sc4.jpg");
+	background-image: url("../images/02_Sc4.jpg");
 	background-size:100%;
 }
 
@@ -220,7 +219,7 @@ a.digit:hover {
 
 #bodyPage3{
 	background-color: #A9B0B1;
-	background-image: url("../images/NieborowLampy_DSC01602Sc3.jpg");
+	background-image: url("../images/DSC01602Sc3.jpg");
 	background-size:100%;
 }
 
@@ -262,6 +261,10 @@ a.biblio:hover {
 .bodyCanvas{
 	background-color: rgb(0,0,0);
 	color: rgb(50,50,50);	
+}
+
+.woman {
+	color: rgb(150,150,150);
 }
 
 .bodyCanvas p {
@@ -329,12 +332,6 @@ h5 > a:hover {
 	text-align: center;
 }
 
-#button3PanelHeading{
-	color: red;
-	margin-top: 30px;
-	margin-bottom:30px;
-}
-
 .books {
 	margin-top: 15px;
 }
@@ -349,6 +346,9 @@ h5 > a:hover {
 	padding: 5px 0px 5px 0px;	
 }
 
+.change {
+	background-color: red;
+}
 
 a.rodz {
 	color: orange;
