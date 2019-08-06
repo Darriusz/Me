@@ -20,10 +20,7 @@ function hideShow(item) {
 }
 
 
-
-
-
-//***********button1  experiment *************
+//***********button1   *************
     document.querySelector("#button1")
       .addEventListener("click", function () {
         

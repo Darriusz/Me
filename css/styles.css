@@ -75,12 +75,26 @@ small{
 	background-color: rgba(100,100,100,.5);
 	padding: 10px;
 	border-radius: 10px;
-	margin-bottom: 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
 }
 
-.contact:hover {
+.contact:hover, .lg:hover {
 	color: rgba(255,255,255,.8);
 	text-decoration: none;
+}
+
+.lg {
+	color: #FA857F;
+	background-color: rgba(100,100,100,.5);
+	padding: 10px;
+	border-radius: 10px;	
+}
+
+.fixed-top {
+	top: 20px;
+	right: -10px;
 }
 
 .container-fluid{
@@ -437,6 +451,7 @@ a.tel {
 	.x {
 		color: grey;
 	}
+
 	#bodyPage1, #bodyPage2, #bodyPage3 {
 		background-size:200%;
 	}
