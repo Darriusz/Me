@@ -77,13 +77,13 @@ function hideShow(item) {
 		hideShow("button3Content");
 		
         document.querySelector("#button3PanelHeading")
-                .innerHTML = '<div class="piece"><h5>Strings overtone suite</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
+                .innerHTML = '<div class="piece"><h5>Overtone suite</h5><p class="minimal">(nagranie z edytora muzycznego)</p><div>';
 
 	  var x = document.getElementById("button3PanelHeading");
 	  var y = document.getElementById("button3");	  
 		if (x.style.display === "block") {
 			x.style.display = "none";
-      y.innerHTML = 'Strings';			
+      y.innerHTML = 'Ochestra';			
 		} 
     else {
 			x.style.display = "block";
@@ -157,7 +157,7 @@ function hideShow(item) {
     var y = document.getElementById("button6");   
     if (x.style.display === "block") {
       x.style.display = "none";
-      y.innerHTML = 'Orchestra';      
+      y.innerHTML = 'Orch/Choir';      
     } 
     else {
       x.style.display = "block";
