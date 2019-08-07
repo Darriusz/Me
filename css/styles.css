@@ -118,7 +118,12 @@ small{
 	background-size: 100%;
 }
 
-
+#copyright {
+	position: fixed;
+	bottom: 10px;
+	color: rgba(210,210, 210,.4);
+	font-size:0.7em;
+}
 h1.main {
 	font-size: 7vw;
 }
@@ -393,12 +398,6 @@ a.rodz {
 
 a.tel {
 	color: #BAD5FC;
-}
-
-#copyright{
-	text-align: center;
-	color: #8B9DB5;
-	font-size:0.8em;
 }
 
 
