@@ -19,14 +19,14 @@ function hideShow(item) {
   }
 }
 
-jQuery('.tg-item-audio-player').attr('controlsList','nodownload');
+jQuery('.aud').attr('controlsList','nodownload');
 
 //***********button1   *************
     document.querySelector("#button1")
       .addEventListener("click", function () {
         
        document.querySelector("#button1Content")
-                .innerHTML ='<audio controls><source src="audio/Wrze.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
+                .innerHTML ='<audio controls class="aud" ><source src="audio/Wrze.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
     hideShow("button1Content");
     
         document.querySelector("#button1PanelHeading")
@@ -50,7 +50,7 @@ jQuery('.tg-item-audio-player').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button2Content")
-                .innerHTML ='<audio controls><source src="audio/Pazdz.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Pazdz.mp3" type="audio/mp3"></audio>';
     hideShow("button2Content");
     
         document.querySelector("#button2PanelHeading")
