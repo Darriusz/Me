@@ -224,6 +224,10 @@ a.digit:hover {
 	font-size: 70%;
 }
 
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
 #musictext {
 	margin-top: 20%;
 	width: 85%;
