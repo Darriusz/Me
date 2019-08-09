@@ -19,6 +19,7 @@ function hideShow(item) {
   }
 }
 
+jQuery('.tg-item-audio-player').attr('controlsList','nodownload');
 
 //***********button1   *************
     document.querySelector("#button1")
