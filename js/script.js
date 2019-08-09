@@ -25,7 +25,7 @@ function hideShow(item) {
       .addEventListener("click", function () {
         
        document.querySelector("#button1Content")
-                .innerHTML ='<audio controls><source src="audio/Wrze.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls><source src="audio/Wrze.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
     hideShow("button1Content");
     
         document.querySelector("#button1PanelHeading")
@@ -49,7 +49,7 @@ function hideShow(item) {
       .addEventListener("click", function () {
         
        document.querySelector("#button2Content")
-                .innerHTML ='<audio controls><source src="audio/Pazdz.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls><source src="audio/Pazdz.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
     hideShow("button2Content");
     
         document.querySelector("#button2PanelHeading")
@@ -73,7 +73,7 @@ function hideShow(item) {
       .addEventListener("click", function () {
         
        document.querySelector("#button3Content")
-                .innerHTML ='<audio controls><source src="audio/Aug.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls><source src="audio/Aug.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
 		hideShow("button3Content");
 		
         document.querySelector("#button3PanelHeading")
