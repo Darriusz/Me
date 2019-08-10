@@ -20,6 +20,23 @@ function hideShow(item) {
 }
 
 
+
+//************** pictures *************************************
+
+function biggger(){
+$('.imgSmall').css("width":"150%");
+$('.imgSmall').css("height":"150%");
+}
+
+
+
+
+
+
+
+//******************** AUDIO *******************************************
+
+
 //******** explanation for audio controls additions: 
 // 1. controlsList="nodownload" - to disable Chrome thee-dot download in audio controls
 // 2. oncontextmenu="return false;" - to disable right-click download
