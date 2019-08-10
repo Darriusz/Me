@@ -20,6 +20,12 @@ function hideShow(item) {
 }
 
 
+
+sym.$("audio controls").bind('contextmenu',function() { 
+  return false; 
+});
+
+
 //***********button1   *************
     document.querySelector("#button1")
       .addEventListener("click", function () {
