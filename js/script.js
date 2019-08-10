@@ -20,10 +20,9 @@ function hideShow(item) {
 }
 
 
-
-sym.$("audio controls").bind('contextmenu',function() { 
-  return false; 
-});
+//******** explanation for audio controls additions: 
+// 1. controlsList="nodownload" - to disable Chrome thee-dot download in audio controls
+// 2. oncontextmenu="return false;" - to disable right-click download
 
 
 //***********button1   *************
@@ -31,7 +30,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button1Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Wrze.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Wrze.mp3" type="audio/mp3"></audio>';
     hideShow("button1Content");
     
         document.querySelector("#button1PanelHeading")
@@ -55,7 +54,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button2Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Pazdz.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Pazdz.mp3" type="audio/mp3"></audio>';
     hideShow("button2Content");
     
         document.querySelector("#button2PanelHeading")
@@ -79,7 +78,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button3Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Aug.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Aug.mp3" type="audio/mp3"></audio>';
 		hideShow("button3Content");
 		
         document.querySelector("#button3PanelHeading")
@@ -104,7 +103,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button4Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Xyl.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Xyl.mp3" type="audio/mp3"></audio>';
     hideShow("button4Content");
     
         document.querySelector("#button4PanelHeading")
@@ -129,7 +128,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button5Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Via.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Via.mp3" type="audio/mp3"></audio>';
     hideShow("button5Content");
     
         document.querySelector("#button5PanelHeading")
@@ -153,7 +152,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button6Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Him.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Him.mp3" type="audio/mp3"></audio>';
     hideShow("button6Content");
     
         document.querySelector("#button6PanelHeading")
@@ -177,7 +176,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button7Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Ora.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Ora.mp3" type="audio/mp3"></audio>';
     hideShow("button7Content");
     
         document.querySelector("#button7PanelHeading")
@@ -201,7 +200,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button8Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Bene.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Bene.mp3" type="audio/mp3"></audio>';
     hideShow("button8Content");
     
         document.querySelector("#button8PanelHeading")
@@ -225,7 +224,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button9Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Pater.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Pater.mp3" type="audio/mp3"></audio>';
     hideShow("button9Content");
     
         document.querySelector("#button9PanelHeading")
@@ -249,7 +248,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button10Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/White.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/White.mp3" type="audio/mp3"></audio>';
     hideShow("button10Content");
     
         document.querySelector("#button10PanelHeading")
@@ -273,7 +272,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button11Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Adiuva.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Adiuva.mp3" type="audio/mp3"></audio>';
     hideShow("button11Content");
     
         document.querySelector("#button11PanelHeading")
@@ -297,7 +296,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button12Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Half.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Half.mp3" type="audio/mp3"></audio>';
     hideShow("button12Content");
     
         document.querySelector("#button12PanelHeading")
@@ -321,7 +320,7 @@ sym.$("audio controls").bind('contextmenu',function() {
       .addEventListener("click", function () {
         
        document.querySelector("#button13Content")
-                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Valse.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload" oncontextmenu="return false;"><source src="audio/Valse.mp3" type="audio/mp3"></audio>';
     hideShow("button13Content");
     
         document.querySelector("#button13PanelHeading")
