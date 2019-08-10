@@ -19,14 +19,13 @@ function hideShow(item) {
   }
 }
 
-jQuery('.aud').attr('controlsList','nodownload');
 
 //***********button1   *************
     document.querySelector("#button1")
       .addEventListener("click", function () {
         
        document.querySelector("#button1Content")
-                .innerHTML ='<audio controls class="aud" ><source src="audio/Wrze.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Wrze.mp3" type="audio/mp3"></audio>';
     hideShow("button1Content");
     
         document.querySelector("#button1PanelHeading")
@@ -74,7 +73,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button3Content")
-                .innerHTML ='<audio controls><source src="audio/Aug.mp3" type="audio/mp3" controlsList="nodownload"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Aug.mp3" type="audio/mp3"></audio>';
 		hideShow("button3Content");
 		
         document.querySelector("#button3PanelHeading")
@@ -99,7 +98,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button4Content")
-                .innerHTML ='<audio controls><source src="audio/Xyl.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Xyl.mp3" type="audio/mp3"></audio>';
     hideShow("button4Content");
     
         document.querySelector("#button4PanelHeading")
@@ -124,7 +123,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button5Content")
-                .innerHTML ='<audio controls><source src="audio/Via.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Via.mp3" type="audio/mp3"></audio>';
     hideShow("button5Content");
     
         document.querySelector("#button5PanelHeading")
@@ -148,7 +147,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button6Content")
-                .innerHTML ='<audio controls><source src="audio/Him.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Him.mp3" type="audio/mp3"></audio>';
     hideShow("button6Content");
     
         document.querySelector("#button6PanelHeading")
@@ -172,7 +171,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button7Content")
-                .innerHTML ='<audio controls><source src="audio/Ora.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Ora.mp3" type="audio/mp3"></audio>';
     hideShow("button7Content");
     
         document.querySelector("#button7PanelHeading")
@@ -196,7 +195,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button8Content")
-                .innerHTML ='<audio controls><source src="audio/Bene.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Bene.mp3" type="audio/mp3"></audio>';
     hideShow("button8Content");
     
         document.querySelector("#button8PanelHeading")
@@ -220,7 +219,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button9Content")
-                .innerHTML ='<audio controls><source src="audio/Pater.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Pater.mp3" type="audio/mp3"></audio>';
     hideShow("button9Content");
     
         document.querySelector("#button9PanelHeading")
@@ -244,7 +243,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button10Content")
-                .innerHTML ='<audio controls><source src="audio/White.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/White.mp3" type="audio/mp3"></audio>';
     hideShow("button10Content");
     
         document.querySelector("#button10PanelHeading")
@@ -268,7 +267,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button11Content")
-                .innerHTML ='<audio controls><source src="audio/Adiuva.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Adiuva.mp3" type="audio/mp3"></audio>';
     hideShow("button11Content");
     
         document.querySelector("#button11PanelHeading")
@@ -292,7 +291,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button12Content")
-                .innerHTML ='<audio controls><source src="audio/Half.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Half.mp3" type="audio/mp3"></audio>';
     hideShow("button12Content");
     
         document.querySelector("#button12PanelHeading")
@@ -316,7 +315,7 @@ jQuery('.aud').attr('controlsList','nodownload');
       .addEventListener("click", function () {
         
        document.querySelector("#button13Content")
-                .innerHTML ='<audio controls><source src="audio/Valse.mp3" type="audio/mp3"></audio>';
+                .innerHTML ='<audio controls controlsList="nodownload"><source src="audio/Valse.mp3" type="audio/mp3"></audio>';
     hideShow("button13Content");
     
         document.querySelector("#button13PanelHeading")
